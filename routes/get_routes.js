@@ -1,17 +1,14 @@
 const router = require('express').Router();
+const path = require('path');
 const { Influence, Ability, Archetype, Background, Clan, Discipline, Trait, Dictionary } = require('../models');
 
 router.get("/", async (req, res) => {
-    console.log("test")
-    res.json("hello")
+    res.sendFile(path.join(__dirname, '../public/index.html'));
 })
 //Influences
 router.get("/influences", async (req, res) => {
-    console.log("hit")
     try {
-        console.log("try")
         let data = await Influence.find();
-        console.log(data)
         res.json(data)
     } catch (error) {
         console.log(error)

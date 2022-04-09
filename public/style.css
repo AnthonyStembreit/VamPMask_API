@@ -1,0 +1,27 @@
+body{
+    font-size: 22px;
+    /* background-color: rgb(115, 26, 26); */
+}
+h1, h2 {
+    text-align: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+label{
+    margin-top:10px;
+    width: 40%;
+    /* background-color: grey; */
+}
+input{
+    /* background-color: grey; */
+    width: 40%;
+    font-size: 22px;
+    margin-bottom:10px;
+}
