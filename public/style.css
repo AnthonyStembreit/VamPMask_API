@@ -16,12 +16,12 @@ section{
 }
 label{
     margin-top:10px;
-    width: 40%;
+    width: 50%;
     /* background-color: grey; */
 }
 input{
     /* background-color: grey; */
-    width: 40%;
-    font-size: 22px;
+    width: 50%;
+    font-size: 20px;
     margin-bottom:10px;
 }
