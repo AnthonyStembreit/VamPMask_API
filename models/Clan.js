@@ -19,6 +19,7 @@ const clanSchema = new Schema(
         // }
         description: {
             type: String,
+            required: true,
             minlength: 1,
             maxlength: 2000
         }

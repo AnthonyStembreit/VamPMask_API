@@ -14,6 +14,7 @@ const flawSchema = new Schema(
     },
     description: {
         type: String,
+        required: true,
         minlength: 1,
         maxlength: 500
     }

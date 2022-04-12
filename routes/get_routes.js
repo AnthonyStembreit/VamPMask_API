@@ -153,6 +153,18 @@ router.get("/traits/:name", async (req, res) => {
         console.log(error)
     }
 })
+//gets traits by type ie Physical / Social / Mental
+router.get("/traits/by-type/:type", async (req, res) => {
+    try {
+        let data = await Trait.find({ type: req.params.type })
+        if (!data) {
+            return res.status(404).json({ message: 'Cannot find that Trait, sorry!' });
+        }
+        res.json(data)
+    } catch (error) {
+        console.log(error)
+    }
+})
 //Dictionary
 router.get("/define/:word", async (req, res) => {
     try {
