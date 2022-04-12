@@ -227,7 +227,233 @@ const traitData = [
         type: "Physical",
         negative_trait: true,
         description: "Weak and feeble. Your body responds to physical stress as if it were in the throes of a debilitating illness.",
-    }
+    },
+    {
+        name: "Alluring",
+        type: "Social",
+        sub_type: "Appearance-related",
+        negative_trait: false,
+        description: "An attractive and appealing presence that inspires desire in others.",
+        uses: "Uses: Seduction. Convincing others."
+    },
+    {
+        name: "Beguiling",
+        type: "Social",
+        sub_type: "Manipulation-related",
+        negative_trait: false,
+        description: "The skill of deception and illusion. You can twist the perceptions of others and lead them to believe what suits you.",
+        uses: "Uses: Tricking others. Lying under duress."
+    },
+    {
+        name: "Charismatic",
+        type: "Social",
+        sub_type: "Charisma-related",
+        negative_trait: false,
+        description: "The talent of inspiration and motivation, the sign of a strong leader",
+        uses: "Uses: In a situation involving leadership or the achievement of leadership. Presence."
+    },
+    {
+        name: "Charming",
+        type: "Social",
+        sub_type: "Charisma-related",
+        negative_trait: false,
+        description: "Your speech and actions make you attractive and appealing to others.",
+        uses: "Uses: Convincing. Persuading. Presence."
+    },
+    {
+        name: "Commanding",
+        type: "Social",
+        sub_type: "Manipulation-related",
+        negative_trait: false,
+        description: "Impressive delivery of orders and suggestions. This Trait implies skill in the control and direction of others.",
+        uses: "Uses: When you are seen as a leader."
+    },
+    {
+        name: "Dignified",
+        type: "Social",
+        sub_type: "Charisma-related",
+        negative_trait: false,
+        description: "Something about your posture and body carriage appears honor- able and aesthetically pleasing. You carry yourself well.",
+        uses: "Uses: Presence. Defending against Social Challenges."
+    },
+    {
+        name: "Diplomatic",
+        type: "Social",
+        sub_type: "Charisma-related",
+        negative_trait: false,
+        description: "Tactful, careful and thoughtful in speech and deed. Few are displeased with what you say or do.",
+        uses: "Uses: Very important in intrigue. Leadership situations."
+    },
+    {
+        name: "Elegant",
+        type: "Social",
+        sub_type: "Appearance-related",
+        negative_trait: false,
+        description: "Refined tastefulness. Even though you don’t need money to be elegant, you exude an air of richness and high society.",
+        uses: "Uses: High society or Toreador parties. Might be important in some clans for advancement. Defending against Social Challenges."
+    },
+    {
+        name: "Eloquent",
+        type: "Social",
+        sub_type: "Charisma-related",
+        negative_trait: false,
+        description: "The ability to speak in an interesting and convincing manner.",
+        uses: "Uses: Convincing others. Swaying emotions. Public speaking. Presence."
+    },
+    {
+        name: "Empathetic",
+        type: "Social",
+        sub_type: "Miscellaneous Social",
+        negative_trait: false,
+        description: "Able to identify and understand the emotions and moods of people with whom you come in contact.",
+        uses: "Uses: Gauging the feelings of others."
+    },
+    {
+        name: "Expressive",
+        type: "Social",
+        sub_type: "Charisma-related",
+        negative_trait: false,
+        description: "Able to articulate your thoughts in interesting, meaningful ways.",
+        uses: "Uses: Producing art of any kind. Acting. Performing. Any social situation in which you want someone to understand your meaning."
+    },
+    {
+        name: "Friendly",
+        type: "Social",
+        sub_type: "Miscellaneous Social",
+        negative_trait: false,
+        description: "Able to fit in with everyone you meet. Even after a short conversation, most find it difficult to dislike you.",
+        uses: "Uses: Convincing others."
+    },
+    {
+        name: "Genial",
+        type: "Social",
+        sub_type: "Charisma-related",
+        negative_trait: false,
+        description: "Cordial, kindly, warm and pleasant. You are pleasing to be around",
+        uses: "Uses: Mingling at parties. Presence. Generally used in a second or later Social Challenge with someone."
+    },
+    {
+        name: "Gorgeous",
+        type: "Social",
+        sub_type: "Appearance-related",
+        negative_trait: false,
+        description: "Beautiful or handsome. You were born with a face and body that is good-looking to most people you meet.",
+        uses: "Uses: Modeling, posing."
+    },
+    {
+        name: "Ingratiating",
+        type: "Social",
+        sub_type: "Manipulation-related",
+        negative_trait: false,
+        description: "Able to gain the favor of people who know you.",
+        uses: "Uses: Dealing with elders in a social situation. Defending against Social Challenges"
+    },
+    {
+        name: "Intimidating",
+        type: "Social",
+        sub_type: "Miscellaneous Social",
+        negative_trait: false,
+        description: "A frightening or awesome presence that causes others to feel timid. This Trait is particularly useful when attempting to cow opponents.",
+        uses: "Uses: Inspiring common fear. Ordering others."
+    },
+    {
+        name: "Magnetic",
+        type: "Social",
+        sub_type: "Appearance-related",
+        negative_trait: false,
+        description: "People feel drawn to you; those around you are interested in your speech and actions.",
+        uses: "Uses: Seduction. First impressions."
+    },
+    {
+        name: "Persuasive",
+        type: "Social",
+        sub_type: "Manipulation-related",
+        negative_trait: false,
+        description: "Able to propose believable, convincing and correct arguments and requests. Very useful when someone else is undecided on an issue.",
+        uses: "Uses: Persuading or convincing others."
+    },
+    {
+        name: "Seductive",
+        type: "Social",
+        sub_type: "Appearance-related",
+        negative_trait: false,
+        description: "Able to entice and tempt. You can use your good looks and your body to get what you want from others.",
+        uses: "Uses: Subterfuge, seduction."
+    },
+    {
+        name: "Witty",
+        type: "Social",
+        sub_type: "Miscellaneous Social",
+        negative_trait: false,
+        description: "Cleverly humorous. Jokes and jests come easily to you, and you are perceived as a funny person when you want to be.",
+        uses: "Uses: At parties. Entertaining someone. Goading or insulting someone."
+    },
+    {
+        name: "Bestial",
+        type: "Social",
+        negative_trait: true,
+        description: "You have started to resemble the Beast of your vampiric nature. Maybe you have clawlike fingernails, heavy body hair or a feral glint in your eyes; however your Beast manifests, you definitely seem inhuman.",
+    },
+    {
+        name: "Callous",
+        type: "Social",
+        negative_trait: true,
+        description: "You are unfeeling, uncaring and insensitive to the suffering of others.",
+    },
+    {
+        name: "Condescending",
+        type: "Social",
+        negative_trait: true,
+        description: "You just can’t help it; your contempt for others is impos- sible to hide.",
+    },
+    {
+        name: "Dull",
+        type: "Social",
+        negative_trait: true,
+        description: "Those with whom you speak usually find you boring and uninteresting. Conversing with you is a chore. You do not present yourself well to others.",
+    }, 
+    {
+        name: "Feral",
+        type: "Social",
+        negative_trait: true,
+        description: "The animalistic predator in you is evident in your actions. You scratch yourself, sniff at people or otherwise behave in a primitive fashion.",
+    },
+    {
+        name: "Naive",
+        type: "Social",
+        negative_trait: true,
+        description: "You lack the air of worldliness, sophistication or maturity that most carry.",
+    },
+    {
+        name: "Obnoxious",
+        type: "Social",
+        negative_trait: true,
+        description: "You are annoying or unappealing in speech, action or appearance",
+    },
+    {
+        name: "Repugnant",
+        type: "Social",
+        negative_trait: true,
+        description: "Your appearance disgusts everyone around you. Needless to say, you make a terrible first impression with strangers.",
+    },
+    {
+        name: "Shy",
+        type: "Social",
+        negative_trait: true,
+        description: "You are timid, bashful, reserved and socially hesitant.",
+    },
+    {
+        name: "Tactless",
+        type: "Social",
+        negative_trait: true,
+        description: "You are unable to do or say things that others find appropriate to the social situation.",
+    },
+    {
+        name: "Untrustworthy",
+        type: "Social",
+        negative_trait: true,
+        description: "You are rumored or perceived to be unreliable, whether or not you really are.",
+    },
 
 ]
 
