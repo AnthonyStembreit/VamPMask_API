@@ -1,5 +1,33 @@
 const { Schema, model } = require('mongoose');
 
+const powerSchema = new Schema(
+  {
+    powerId: {
+      type: Schema.Types.ObjectId,
+      default: () => new Types.ObjectId(),
+    },
+    name: {
+      type: String,
+      required: true,
+      minlength: 1,
+      maxlength: 280
+    },
+    level: {
+      type: String,
+      required: true,
+    },
+    cost: {
+      type: Number,
+      required: true
+    },
+    description: {
+      type: String,
+      required: true,
+      minlength: 1,
+      maxlength: 2000
+    }
+  })
+
 const disciplineSchema = new Schema(
   {
     primary_name: {
@@ -8,18 +36,11 @@ const disciplineSchema = new Schema(
       minlength: 1,
       maxlength: 280
     },
-    sub_type: {
-      type: String,
-      required: true
-    },
-    discipline_level: {
-      type: Number,
-      required: true
-    }, 
+    powers: [powerSchema],
     description: {
-        type: String,
-        minlength: 1,
-        maxlength: 2000
+      type: String,
+      minlength: 1,
+      maxlength: 2000
     }
   },
   {
