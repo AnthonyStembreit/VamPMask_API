@@ -8,12 +8,19 @@ const dictionarySchema = new Schema(
       minlength: 1,
       maxlength: 280
     },
-    definition: {
+    short_definition: {
+      type: String,
+      required: true,
+      minlength: 1,
+      maxlength: 200
+    },
+    description: {
       type: String,
       required: true,
       minlength: 1,
       maxlength: 2000
-    }
+    },
+    
   },
   {
     toJSON: {

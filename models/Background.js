@@ -1,4 +1,18 @@
 const { Schema, model } = require('mongoose');
+const levelSchema = new Schema({
+  levelId: {
+    type: Schema.Types.ObjectId,
+    default: () => new Types.ObjectId(),
+  },
+  cost: {
+    type: Number,
+  },
+  benefits: {
+    type: String,
+      minlength: 1,
+      maxlength: 1000
+  }
+})
 
 const backgroundSchema = new Schema(
   {
@@ -8,9 +22,7 @@ const backgroundSchema = new Schema(
       minlength: 1,
       maxlength: 280
     },
-    background_level: {
-      type: Number
-    }, 
+    background_levels: [levelSchema], 
     description: {
         type: String,
         minlength: 1,
