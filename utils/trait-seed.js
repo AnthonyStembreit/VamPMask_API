@@ -454,7 +454,226 @@ const traitData = [
         negative_trait: true,
         description: "You are rumored or perceived to be unreliable, whether or not you really are.",
     },
-
+    {
+        name: "Alert",
+        type: "Mental",
+        sub_type: "Wits-related",
+        negative_trait: false,
+        description: "Mentally prepared for danger and able to react quickly when it occurs",
+        uses: "Uses: Preventing surprise attacks. Defending against Dominate."
+    },
+    {
+        name: "Attentive",
+        type: "Mental",
+        sub_type: "Perception-related",
+        negative_trait: false,
+        description: "You pay attention to everyday occurrences around you. When something extraordinary happens, you are usually ready for it.",
+        uses: "Uses: Preventing surprise attacks. Seeing through Obfuscate when you don’t expect it. Preventing Dominate."
+    },
+    {
+        name: "Clever",
+        type: "Mental",
+        sub_type: "Wits-related",
+        negative_trait: false,
+        description: "Quick-witted resourcefulness. You think well on your feet.",
+        uses: "Uses: Using a Mental Challenge against another."
+    },
+    {
+        name: "Creative",
+        type: "Mental",
+        sub_type: "Miscellaneous Mental",
+        negative_trait: false,
+        description: "Your ideas are original and imaginative, which implies an ability to produce unusual solutions to your difficulties. You can create artistic pieces. A requirement for any true artist.",
+        uses: "Uses: Defending against Auspex. Creating anything."
+    },
+    {
+        name: "Cunning",
+        type: "Mental",
+        sub_type: "Intelligence-related",
+        negative_trait: false,
+        description: "Crafty and sly, possessing a great deal of ingenuity.",
+        uses: "Uses: Tricking others."
+    },
+    {
+        name: "Dedicated",
+        type: "Mental",
+        sub_type: "Miscellaneous Mental",
+        negative_trait: false,
+        description: "You give yourself over totally to your beliefs. When one of your causes is at stake, you stop at nothing to succeed.",
+        uses: "Uses: Useful in any Mental Challenge when your beliefs are at stake."
+    },
+    {
+        name: "Determined",
+        type: "Mental",
+        sub_type: "Miscellaneous Mental",
+        negative_trait: false,
+        description: "When it comes to mental endeavors, you are fully committed. Nothing can divert your intentions to succeed once you have made up your mind.",
+        uses: "Uses: Staredowns. Useful in a normal Mental Challenge."
+    },
+    {
+        name: "Discerning",
+        type: "Mental",
+        sub_type: "Perception-related",
+        negative_trait: false,
+        description: "Discriminating, able to pick out details, subtleties and idiosyn- crasies. You have clarity of vision.",
+        uses: "Uses: Auspex. Investigation and tracking"
+    },
+    {
+        name: "Disciplined",
+        type: "Mental",
+        sub_type: "Intelligence-related",
+        negative_trait: false,
+        description: "Your mind is structured and controlled. This rigidity gives you an edge in battles of will.",
+        uses: "Uses: Thaumaturgy. Staredowns. Useful in a Mental Challenge."
+    },
+    {
+        name: "Insightful",
+        type: "Mental",
+        sub_type: "Perception-related",
+        negative_trait: false,
+        description: "The power of looking at a situation and gaining an understanding of it.",
+        uses: "Uses: Investigation (but not defense against it). Auspex."
+    },
+    {
+        name: "Intuitive",
+        type: "Mental",
+        sub_type: "Wits-related",
+        negative_trait: false,
+        description: "Knowledge and understanding somehow come to you without conscious reasoning, as if by instinct.",
+        uses: "Uses: Spontaneous deduction."
+    },
+    {
+        name: "Knowledgeable",
+        type: "Mental",
+        sub_type: "Intelligence-related",
+        negative_trait: false,
+        description: "You know copious and detailed information about a wide variety of topics. This Trait represents 'book-learning.'",
+        uses: "Uses: Forgetful Mind tests. Remembering information your character might know. Employing Thaumaturgy."
+    },
+    {
+        name: "Observant",
+        type: "Mental",
+        sub_type: "Perception-related",
+        negative_trait: false,
+        description: "Depth of vision, the power to look at something and notice the important aspects of it.",
+        uses: "Uses: Auspex. Picking up on subtleties that others might overlook."
+    },
+    {
+        name: "Patient",
+        type: "Mental",
+        sub_type: "Miscellaneous Mental",
+        negative_trait: false,
+        description: "Tolerant, persevering and steadfast. You can wait out extended delays with composure.",
+        uses: "Uses: Staredowns or other mental battles after another Trait has been bid."
+    },
+    {
+        name: "Rational",
+        type: "Mental",
+        sub_type: "Intelligence-related",
+        negative_trait: false,
+        description: "You believe in logic, reason, sanity and sobriety. Your ability to reduce concepts to a mathematical level helps you analyze the world.",
+        uses: "Uses: Defending against emotion-oriented mental attacks. Defending against an aura-reading. Not used as an initial bid."
+    },
+    {
+        name: "Reflective",
+        type: "Mental",
+        sub_type: "Intelligence-related",
+        negative_trait: false,
+        description: "Meditative self-recollection and deep thought. The Trait of the serious thinker, Reflective enables you to consider all aspects of a conundrum.",
+        uses: "Uses: Meditation. Remembering information. Defending against most Mental Challenges."
+    },
+    {
+        name: "Shrewd",
+        type: "Mental",
+        sub_type: "Wits-related",
+        negative_trait: false,
+        description: "Astute and artful, able to keep your wits about you and accomplish mental feats with efficiency and finesse.",
+        uses: "Uses: Defending against a Mental Discipline."
+    },
+    {
+        name: "Vigilant",
+        type: "Mental",
+        sub_type: "Perception-related",
+        negative_trait: false,
+        description: "Watchful. You have the disposition of a guard dog; your atten- tion misses little.",
+        uses: "Uses: Defending against investigation or Forgetful Mind. Seeing through Obfuscate. Auspex. More appropriate for mental defense than for attack."
+    },
+    {
+        name: "Wily",
+        type: "Mental",
+        sub_type: "Wits-related",
+        negative_trait: false,
+        description: "Sly and full of guile. Because you are wily, you can trick and deceive easily.",
+        uses: "Uses: Tricking others. Lying under duress. Confusing mental situations."
+    },
+    {
+        name: "Wise",
+        type: "Mental",
+        sub_type: "Miscellaneous Mental",
+        negative_trait: false,
+        description: "An overall understanding of the workings of the world.",
+        uses: "Uses: Giving advice. Dispensing snippets of Zen."
+    },
+    {
+        name: "Forgetful",
+        type: "Mental",
+        negative_trait: true,
+        description: "You have trouble remembering even important things.",
+    },
+    {
+        name: "Gullible",
+        type: "Mental",
+        negative_trait: true,
+        description: "Easily deceived, duped or fooled.",
+    },
+    {
+        name: "Ignorant",
+        type: "Mental",
+        negative_trait: true,
+        description: "Uneducated or misinformed, never seeming to know anything.",
+    },
+    {
+        name: "Impatient",
+        type: "Mental",
+        negative_trait: true,
+        description: "Restless, anxious and generally intolerant of delays. You want everything to go your way — immediately.",
+    },
+    {
+        name: "Oblivious",
+        type: "Mental",
+        negative_trait: true,
+        description: "Unaware and unmindful. You’d be lucky if you noticed an airplane flying through your living room.",
+    },
+    {
+        name: "Predictable",
+        type: "Mental",
+        negative_trait: true,
+        description: "Because you lack originality or intelligence, even strangers can figure out what you intend to do next.",
+    },
+    {
+        name: "Shortsighted",
+        type: "Mental",
+        negative_trait: true,
+        description: "Lacking foresight. You rarely look beyond the superficial; details of perception are usually lost on you.",
+    },
+    {
+        name: "Submissive",
+        type: "Mental",
+        negative_trait: true,
+        description: "No backbone; you relent and surrender at any cost rather than stand up for yourself.",
+    },
+    {
+        name: "Violent",
+        type: "Mental",
+        negative_trait: true,
+        description: "An extreme lack of self-control. You fly into rages at the slightest provocation, and frenzy is always close to the surface. This Trait is a Mental one because it represents mental instability.",
+    },
+    {
+        name: "Witless",
+        type: "Mental",
+        negative_trait: true,
+        description: "Lacking the ability to process information quickly. Foolish and slow to act when threatened.",
+    }
 ]
 
 const seedTraits = () => Trait.collection.insertMany(traitData);
