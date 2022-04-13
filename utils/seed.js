@@ -3,6 +3,7 @@ const { Influence, Ability, Archetype, Background, Clan, Discipline, Trait, Dict
 const { seedInfluences } = require('./influence-seed');
 const { seedTraits } = require('./trait-seed');
 const { seedArchetypes } = require('./archetype-seed');
+const { seedDisciplines } = require('./discipline-seed');
 connection.on('error', (err) => err);
 
 connection.once('open', async () => {
@@ -18,6 +19,7 @@ connection.once('open', async () => {
   await Trait.deleteMany({});
   await Dictionary.deleteMany({});
 
+  await seedDisciplines();
   await seedInfluences();
   await seedArchetypes();
   await seedTraits();

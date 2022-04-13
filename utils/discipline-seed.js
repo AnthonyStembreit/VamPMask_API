@@ -7,13 +7,13 @@ const disciplinesData = [
             {
                 name: "Feral Whispers",
                 level: "Basic",
-                cost: ,
+                cost: 3,
                 description: "By looking into the eyes of an animal and perhaps making some related sound (like growling or hissing), you are capable of communicating with the creature. Your predatory nature allows you to understand and cow natural creatures. De- pending on your predilections, you may deal with the animal equitably, or you may demand obedience. The animal may not wish to obey, but this Discipline’s power insures that the animal is at least favorably disposed toward you. Even if the animal is intractable, you may be able to force it into submission. Using this power requires that you look into the eyes of the creature with which you desire to communicate; if this gaze is lost, then you must attempt to re-establish contact if you wish to continue communicating. Most animals will continue to attend your gaze while you are communicating with them, though. Animals without eyes, or very simple in nature, do not have enough of a mind or Beast to connect with easily. This power works best with predatory creatures and larger birds, reptiles and mammals. You may communicate with animals without any test. However, to issue commands, you must defeat the animal in a Social Challenge — generally, the animal will have the equivalent of six to eight Traits for this challenge, as de- termined by a Narrator. If you succeed, you can count on the animal following your orders for the remainder of the evening. Most animals lack the intelligence necessary to carry out complex or conditional commands, but they can perform simple tasks like fetching, following people or guarding locations.",
             },
             {
                 name: "Beckoning",
                 level: "Basic",
-                cost: ,
+                cost: 3,
                 description: "By uttering a howl or other animal noise, you can summon animals to your side. Depending on how you couch your call, you can summon all animals of a particular type within the area, or just a few. The creatures hasten to your Beckoning, ready to aid or simply to provide nourishment. Though animals called by this power do not fall under your control automatically, they are at least favorably inclined toward you. You must expend a Social Trait for each animal that you summon. Only animals that can hear the summons respond; you cannot call a bird from across a city, nor could you call an animal that cannot hear. You may be as specific as you desire within the category of summoned animals. For instance, you may choose to summon all the rats in an area, or just the white ones, or even a specific rat that you know about. Animals summoned with this power may take some time to arrive. Your Storyteller can issue cards for your animals or swarms, as appropriate. Animals summoned with this power remain as long as they are not attacked or threatened (within their conception — a rat would certainly feel threatened by the move- ments of several people in the area), or until the scene ends. You can use other Animalism powers normally to command or control the animals called.",
             },
             {
@@ -44,13 +44,13 @@ const disciplinesData = [
             {
                 name: "Heightened Senses",
                 level: "Basic",
-                cost: ,
+                cost: 3,
                 description: "At will, you can extend your senses beyond human norms. Your eyesight and hearing sharpen to twice your mortal limits, while your touch, smell and taste are acute enough to pick out tiny details and features with ease. You can sharpen any or all of your senses, as desired. Furthermore, you sometimes have flashes of insight, preternatural awareness of danger or future events. Any senses augmented by this Discipline function at twice normal effectiveness, allowing you to spot hidden foes, hear the rustle of leaves outside, taste a bit of poison in vitae, read a hand-written note by touch and smell incense burned hours ago. Should your senses be overwhelmed, though, you may be stunned temporarily. A loud gunshot, a flash of light or other overwhelming factor can incapacitate one of your senses for a time, causing you to lose the benefits of this Discipline. Furthermore you remain completely stunned for one turn, and you lose the sharpened sense in question for the duration of the scene, unless you expend a Willpower Trait to keep your wits about you.",
             },
             {
                 name: "Aura Perception",
                 level: "Basic",
-                cost: ,
+                cost: 3,
                 description: "By watching a subject carefully, you can pick out the glowing halo or aura that surrounds all creatures. The interplay of colors in this aura gives you insight into the subject’s emotions, motives and true nature. This Discipline is notice- able, though, as you stare at the subject with intense concentration. You must be able to see your target in order to use Aura Perception. You then spend a turn in concentration and make a Static Mental Challenge with a difficulty of the target’s number of Mental Traits (more complex targets are harder to read). Since using this power is a Static Test, the target may not relent or retest. If you succeed, you may ask any one of the following questions, which the subject must answer truthfully: What is your current mood/emotional state? What sort of creature are you (human, vampire, werewolf, etc., subject to your knowledge of such beings and their auras)? Are you under the effects of any form of magic? Have you committed diablerie (see the section on diablerie, p. 216, for how long this form of detection is viable)? Was the last thing you said a lie? Aura Perception also allows you to sense ghosts and astral forms. If you suspect the presence of a ghost in an area, you may expend a Mental Trait to make a normal challenge to sense its aura, as described previously. If you succeed, you are aware of the ghost’s aura as a pale, flickering and amorphous light, though this is not sufficient for you to identify specific individual ghosts.",
             },
             {
@@ -81,13 +81,13 @@ const disciplinesData = [
             {
                 name: "Alacrity",
                 level: "Basic",
-                cost: ,
+                cost: 3,
                 description: "Your reflexes are finely honed. Even as you watch others act, you can spring into action, completing your movements before they can respond. By expending a Blood Trait, you gain the ability to preempt any physical actions taken in the same turn, as long as you are aware of them (a face-to-face mugging, yes — a sniper attack, no). Thus, if someone declares an attempt to pull out a hidden weapon and shoot at you, you can preempt that action to pull out your own gun and fire back (instead of being relegated to dodging). Similarly, if someone attacks an ally, you can preempt the action to get in the way and fight against the aggressor instead. If you attempt to preempt someone using Celerity or a similar speed-enhancing power, the character with the highest degree of Celerity acts first.",
             },
             {
                 name: "Swiftness",
                 level: "Basic",
-                cost: ,
+                cost: 3,
                 description: "With shocking speed, you move faster than humanly possible. Even as oth- ers are recovering from events, you are making your next move. Expend a single Blood Trait to gain one additional action in your turn, in addition to your preemptive Alacrity (the costs are not cumulative). This additional action is taken at the end of the turn, after everyone has resolved single basic actions. If multiple people have additional actions like this, they are all resolved at the same time, after basic actions. You can thus swing a sword twice, run twice as far as normal in a turn, fire a gun and then duck behind cover, or otherwise perform multiple feats.",
             },
             {
@@ -118,13 +118,13 @@ const disciplinesData = [
             {
                 name: "Ignis Fatuus",
                 level: "Basic",
-                cost: ,
+                cost: 3,
                 description: "You generate a brief, static illusion that affects a single sense. You could cause the appearance of a rose in your hand, or make someone hear a low wind or feel the grating touch of sandpaper. This illusion has no real substance (and it cannot confine or injure your victims), but it can confound or mislead. The illusion cannot move in any fashion, although you can hold and move an illusion that you create. Thus, an illusion of a person cannot walk or fidget, but you can pick up and brandish an illusory knife. You must expend a Willpower Trait and best your subjects in a Social Chal- lenge to create this illusion. The illusion persists until you leave the area or until someone manages to disbelieve the effect (by passing a hand through the illusory rose, testing the air and feeling no wind, etc.). You may also dispel the illusion at your desire; doing so is immediate and requires no action.",
             },
             {
                 name: "Fata Morgana",
                 level: "Basic",
-                cost: ,
+                cost: 3,
                 description: "Your illusions appeal to all of the senses. Though you still cannot harm or affect others physically with your phantasms, you can generate static constructs that seem real to any senses that you choose to affect. Thus, you can make a wall that appears solid, has a texture to the touch and smells of old dust and paint, but which has no real substance and can be passed through. Alternately, you could create a phantasm that lacks certain characteristics — you could cause a person to believe that you were holding a rose and brushing it against her cheek, provoking the feeling of the flower against the skin and the scent of the rose, when in fact you do not have a rose. These illusions are still incapable of independent movement. You must expend a Willpower Trait and a Blood Trait to create an illusion of this nature, and you must best your subjects in a Social Challenge. These illusions remain viable under the same conditions as phantasms created with Ignis Fatuus.",
             },
             {
@@ -155,13 +155,13 @@ const disciplinesData = [
             {
                 name: "Passion",
                 level: "Basic",
-                cost: ,
+                cost: 3,
                 description: "You can bring emotion to a fever pitch, accentuating any and all drives or fears that may occupy the mind of your subject. Alternately, you can diminish passions to whispers, quelling the most fierce emotional fires. You must engage your victim in a Social Challenge in order to use Passion. If you succeed, you enhance or dull the subject’s emotions, at your choice. If you heighten the target’s sensitivity, then the subject suffers from the Negative Men- tal Trait Impatient. If you dim the subject’s emotions, then the victim suffers the Negative Mental Trait Submissive. In either case, the target should roleplay the new condition. The incited Passion lasts for the remainder of the scene or for a full hour, whichever comes first. Successive uses of this Discipline on the same individual are not cumulative. The source of this affliction is not immediately obvious, though some elder vampires are aware of the mind tricks of the Malkavians, and they may deduce the source correctly if someone suddenly becomes manic or listless.",
             },
             {
                 name: "The Haunting",
                 level: "Basic",
-                cost: ,
+                cost: 3,
                 description: "Freakish, fleeting nightmares follow your target. The surreal world seems to come alive in barely heard noises and brief glimpses of motion. Victims find themselves distracted by inexplicable sensations, often stemming from their own hidden fears and guilt. Though you have no control over these images, you can choose what sense is affected. With continuous prolonged exposure, your subject may fall to madness as these apparitions afflict his consciousness. You must expend a Blood Trait and engage in a Social Challenge with your victim in order to use this power. If successful, the subject suffers from fleeting nightmares, often plucked from his own subconscious. For the remainder of the evening, the victim suffers from the derangement Schizophrenia (see p. 214). Your use of this power is not im- mediately evident, although the victim should roleplay the effects of his new terrors.",
             },
             {
@@ -192,13 +192,13 @@ const disciplinesData = [
             {
                 name: "Command",
                 level: "Basic",
-                cost: ,
+                cost: 3,
                 description: "Exerting your will against a single individual, you can give a simple com- mand and demand obedience. A single word, even one embedded in a sentence and stressed slightly, becomes an imperative command to your victim. You need only meet your victim’s gaze. As long as your victim sees your eyes and hears your voice, your command carries the authority of your blood. You must meet the gaze of your subject and speak a single word, emphasized for control. This command must be simple and easily understood: “Stop,” “Run,” “Sleep,” “Scream,” “Follow,” and “Silence!” are all acceptable examples. The com- mand cannot be blatantly harmful or self-destructive. You then engage in a Mental Challenge with your opponent. If you win, your victim must follow the order directly and immediately. The command cannot last more than 10 minutes.",
             },
             {
                 name: "Mesmerism",
                 level: "Basic",
-                cost: ,
+                cost: 3,
                 description: "Like a hypnotist, you can impart commands to your subjects, even keying them on specific trigger events. If you can meet your subject’s gaze and speak aloud your commands, you can force the subject to obey your will. Unsuspecting victims can even be given commands that they must carry out later. By making a Mental Challenge against your subject, you can impart more complex or subconscious commands. You may give your subject any sort of command as long as it is not self-destructive. This command can either be triggered immediately (“Go and fetch me a mortal vessel”) or implanted with a particular trigger event (“When the prince ends court, sneeze loudly”). Only one such command may be implanted in a victim at a time, and unless other powers are used, the victim may well remember the process. Placing an order in your victim requires only as much time as it takes to speak the entirety of your order. Both the trigger and the suggestion must be clear and easily understandable.",
             },
             {
@@ -229,13 +229,13 @@ const disciplinesData = [
             {
                 name: "Endurance",
                 level: "Basic",
-                cost: ,
+                cost: 3,
                 description: "While most Kindred still suffer the fatigue and pain of their injuries, you shrug off such hardships. Even the searing injuries of fire and sunlight can barely slow you. You do not suffer any wound penalties from anything past the Bruised health level, until you are struck into torpor or Final Death. When most vampires lose all ties due to being Wounded, or remain insensible and Incapacitated, you simply suffer the usual penalties of being Bruised.",
             },
             {
                 name: "Mettle",
                 level: "Basic",
-                cost: ,
+                cost: 3,
                 description: "Wounds that would slow other vampires mean nothing to you. You can shrug off damage from most sources, ignoring pain and damage alike. Your body resists harm with incredible strength. On achieving this Discipline, you gain one additional health level, which functions just like an extra Healthy line on your health level chart. This health level can be lost and healed like any other.",
             },
             {
@@ -266,13 +266,13 @@ const disciplinesData = [
             {
                 name: "The Missing Voice",
                 level: "Basic",
-                cost: ,
+                cost: 3,
                 description: "Like a ventriloquist, you can throw your voice to any place within your line of sight. However, you do not cause your voice to seem to emanate from there — with The Missing Voice, you actually cause your speech or song to generate from thin air. You can even carry on two conversations simultaneously, for The Missing Voice functions independently of your normal voice. You may use The Missing Voice at any time, as desired. However, if you use The Missing Voice while performing other actions, you suffer a two-Trait penalty on the resolution of challenges due to your split concentration.",
             },
             {
                 name: "Phantom Speaker",
                 level: "Basic",
-                cost: ,
+                cost: 3,
                 description: "No longer limited to sending your voice to a place you can see, you can project speech or song to anyone you know. As long as it is night at the subject’s location, you make your voice heard to your target. The words and music of Phantom Speaker are audible only to your target, unless an eavesdropper with at least the Intermediate level of Auspex manages to listen in by defeating you in a Mental Challenge. You must expend one Blood Trait to project your voice for a single turn.",
             },
             {
@@ -298,153 +298,153 @@ const disciplinesData = [
         description: "With this Discipline, the very voice of a Cainite is a powerful tool. Inspiring emotion or projecting sound through speech and song, the Melpominee Discipline reflects the incredible mastery possessed by the Daughters of Cacophony. The Greek Muse of tragedy surely reflects in this power, as it can be used both to soothe the mind and to inspire insanity. Some Cainites attribute these sirenlike gifts to a hint of fey madness in the Daughters’ bloodline. The powers of Melpominee function on the very soul, not merely on the flesh. Deaf subjects, or individuals otherwise unable to hear the vampire, can still be affected as long as the singer’s voice reaches to the area of the target. These effects extend from the will of the siren, so they only affect those who are in the hearing range of the singer’s natural voice or Melpominee-projected effects — engineered recordings, microphones, bullhorns, or electronic or mechanical copies cannot. The Daughters of Cacophony consider Melpominee to be their highest art and calling, a reflection of the inward music that moves them. As a result, they do not teach its secrets to outsiders, and indeed other Cainites, who do not hear the cosmic music of the spheres, find development of this Discipline difficult in the extreme. All Melpominee effects use Performance Ability for retests"
     },
     {
-        primary_name: "",
+        primary_name: "Obfuscate",
         powers: [
             {
-                name: "",
+                name: "Cloak of Shadows",
                 level: "Basic",
-                cost: ,
-                description: "",
+                cost: 3,
+                description: "By remaining still and relying on natural cover, you can blur the apparent lines of your form and make it difficult for people to notice you. While nobody is watching, you can use cover to fade from view. As long as you remain completely silent and unmoving in a shadowed place or behind some sort of cover, you may cross your arms in front of your chest to represent the use of Obfuscate. While thus hidden, nobody but a Cainite using Auspex (or another supernatural creature with similar sensory acuity) can spot you. This concealment vanishes immediately if you move, speak or interact with your environment in any fashion.",
             },
             {
-                name: "",
+                name: "Unseen Presence",
                 level: "Basic",
-                cost: ,
-                description: "",
+                cost: 3,
+                description: "Your powers of concealment allow you to fade from view, and then to wander about while remaining unnoticed. Any time that you are hidden from sight, you may invoke this Discipline, crossing your arms in front of your chest to represent Obfuscate. Once concealed, you may move about at a walk and remain unnoticed. This concealment remains as long as you do not speak, make any loud noises or interact with your environment — you can wander about unnoticed, but you automatically become visible if you open a door, attack a person, exert the Presence Discipline or knock over a vase, for instance.",
             },
             {
-                name: "",
+                name: "Mask of a Thousand Faces",
                 level: "Intermediate",
                 cost: 6,
-                description: "",
+                description: "By twisting perceptions around you, you cause others to see you not as you really are but as someone different from your actual physical appearance. Generally, this power causes people to ignore your features, making you unas- suming and average. However, with concentration, you can assume a specific hallucinatory visage, or even copy the features of another individual. While using the Mask of a Thousand Faces, your features seem bland and unre- markable. Most often, people will describe you in vague, general terms relating to your normal appearance, but without any specifics, unique features or details. (Nosferatu and Samedi in particular find this power useful for assuming a semblance of their mortal countenances.) If you expend a Mental Trait, you may assume a specific set of features instead, causing those who look on you and who do not pierce your disguise to see, hear and smell the form that you choose. Thus, you can make your hair seem to be of a different color, change your apparent facial features, or seem to exude the smell of a specific perfume (or no smell at all). Note, though, that this power does not change the appearance of anything that you wear or carry — only your physical features are obscured. A Mask of a Thousand Faces remains until you fall asleep, are knocked unconscious or torpid, or are killed. You still use your normal Social Traits while using the Mask of a Thousand Faces. You can copy an image of fewer Traits deliberately, but if you hope to masquerade as someone with more Social Traits, you must expend Blood Traits to match that person’s total Social Traits. Otherwise, your appearance and mannerisms mysteriously fail to convey the person’s countenance properly. You cannot use the Mask of a Thousand Faces to assume more Social Traits than your generation would allow you to possess, so you may have difficulty duplicating the incredible grace of an elder. In either case, you still use your normal Social Traits; the assumption of the Mask of a Thousand Faces merely causes you to ap- pear like someone of more or less social acumen and appearance.",
             },
             {
-                name: "",
+                name: "Vanish from the Mind’s Eye",
                 level: "Intermediate",
                 cost: 6,
-                description: "",
+                description: "The incredible powers of your stealth allow you to remain hidden even while speaking or moving about. You can even fade from plain sight, disappearing from the view of any onlookers. When using Vanish from the Mind’s Eye, you gain all the benefits of Unseen Presence, but with some additional power. You may vanish from view at any time, without having to seek cover. To do so, you simply declare your intent, and then make a mass Mental Challenge against any onlookers (regardless of Auspex) who care to challenge your powers — you bid one Mental Trait for each onlooker, and throw one symbol against all of them. If you succeed, you fade away, unnoticed by anyone. Even if some people notice you, you can attempt to fade from their view again on consecutive turns. Fading away with Vanish from the Mind’s Eye does not count as an action, but it happens only at the end of a turn. Thus, if you strike someone and then attempt to disappear, you must wait until the end of the turn. Additionally, you may speak aloud while using this Discipline, and still attempt to remain hidden. Again, if you speak, you must make a mass Mental Challenge against everyone trying to detect your position, regardless of Auspex. Anyone losing to you fails to locate you, simply hearing a disembodied voice; those who best you manage to pierce the veil of your Obfuscate. You still cannot remain invisible while interacting physically with your environment, screaming, exerting Presence or attacking, but you could take such an action and then try to fade away, as described previously.",
             },
             {
-                name: "",
+                name: "Cloak the Gathering",
                 level: "Advanced",
                 cost: 9,
-                description: "",
+                description: "Your powers of concealment extend beyond your own form. With an effort, you can throw your disguising powers over several people, hiding them all from view or masking them with hallucinatory guises. To use Cloak the Gathering, you must spend one Mental Trait for each subject cloaked. You can then exert any Obfuscate power that you possess over the targets. Thus, you could choose to spread several Masks of a Thousand Faces over your allies, making them all look like different people (or even making some look like clones), or you could shroud a group with Vanish from the Mind’s Eye, causing them all to fade from view. When you exert this power, you must meet all of the normal conditions for the Obfuscate that you extend — you cannot cast Cloak of Shadows over someone who is not hidden behind cover or shadows, for instance. If you cause a group of people to Vanish from the Mind’s Eye, you need only make one Mental Challenge to extend the effect over your entire group. Anyone who bests you sees through the cloak, while anyone who loses to you fails to notice anyone under the cloak. You can only cast out a power that you are using, and you can only extend one power at a time. Individuals under the effects of Cloak the Gathering still sense one another nor- mally. Of course, a cloaked individual could use his own Obfuscate powers to remain unnoticed to other people under the cloak. If an individual under Cloak the Gathering violates the provisions of his loaned Obfuscate in some way (say, by launching an attack), then he immediately loses the benefits, but the cloak itself remains intact. Only if you violate your Obfuscate does the cloak fail. Similarly, if a character with Auspex attempts to breach your concealment, individuals noticed under the cloak do not compromise the protection for everyone else, but if you are noticed, then the entire cloak fails. Cloak the Gathering only throws your Obfuscate over other creatures or entities. You cannot use Cloak the Gathering to shroud a house, for instance, but you can certainly conceal a small group of vampires and all that they wear or carry.",
             }
             
         ],
-        description: ""
+        description: "As creatures of cunning, intrigue and misdirection, Cainites possess an uncanny knack for deception and stealth. For some, though, this ability goes far beyond normal subterfuge. Such vampires actually cloud the minds of people around them, dulling notice and directing attention elsewhere. As a result, these vampires can remain obscured from observation, perhaps even extending their concealing powers to other objects and people. The powers of Obfuscate are often employed by the Assamites in their assassination work, and by the Followers of Set, who surreptitiously ferret out secrets and watch over their quarry. Malkavians use this power to escape notice when engaged in their insane activities. The undisputed masters of this Discipline, though, are the Nosferatu, who use its mind-numbing powers to gather secrets and hide their fearful countenances. Because Obfuscate clouds the awareness of its targets, they avoid notice of a concealed individual and to rationalize away such attention unless it is forced on them. Thus, if a vampire is concealed with this Discipline while wandering about a room, people avoid her subconsciously. If she sits in a chair while hidden, others ignore the chair, taking other seats or standing but failing to notice her innocuous presence or the 'mysteriously empty' seat. This concealment is generally broken if the hidden individual deliberately interacts with the environment, by picking up or dropping something, speaking to some- one, touching a person or manipulating an object — the amount of concealable activity varies with this Discipline’s power, as shown in the individual levels. The concealment of Obfuscate functions against all of the senses, because it actually forces attention away from the hidden individual. Thus, the presence of a Nosferatu wandering about with Unseen Presence is not betrayed by any telltale odor of the sewers. Cross your arms in front of your chest to represent your use of Obfuscate, displaying a number of fingers on each hand corresponding to your highest level of power (one for Basic, two for Intermediate, three for Advanced). The Discipline of Auspex can sometimes be used to pierce the veil of Obfuscate. An individual with Auspex (or a similar power of supernatural sensitivity) may penetrate Obfuscate if he is already looking for hidden individuals. The searcher may engage in a Mental Challenge with the hidden subject. For each level of difference between the subject’s Obfuscate and the searcher’s Auspex, there is a Trait modifier on a one-for- one basis to the outcome of ties or overbids. If the searcher wins, then he pierces the Obfuscate and senses the hidden vampire normally. If the concealed individual wins, the searcher remains oblivious to her presence. Thus, if a vampire with Vanish from the Mind’s Eye (an Intermediate power) uses Obfuscate while trying to evade a vampire with only Heightened Senses (a Basic power), the hiding vampire gains a two-Trait bonus on the Mental Challenge, and if successful, he remains unseen. This bonus applies even if the sneaking vampire uses a lower level of Obfuscate than he actually possesses, so us- ing Unseen Presence is still potent against low levels of Auspex if the vampire actually has Intermediate or Advanced Obfuscate. Similarly, simple Heightened Senses and the like gain the full benefit of the vampire’s best level of Auspex, so a vampire with Psychic Projection is extremely difficult to fool, even if only using the Basic levels of sensory powers. Obfuscate powers last as long as they are maintained, and they generally require no particular effort. These powers conceal the user and everything worn or carried. The Stealth Ability is used for retests by augmenting the Discipline with natural shadows and concealment. Hidden individuals cannot use Willpower to defend against Auspex challenges to Obfuscate (they cannot 'will' themselves into a more hidden state)."
     },
     {
-        primary_name: "",
+        primary_name: "Obtenebration",
         powers: [
             {
-                name: "",
+                name: "Shadow Play",
                 level: "Basic",
-                cost: ,
-                description: "",
+                cost: 3,
+                description: "You can exert a limited degree of control over existing shadows and darkness. At your mental command, darkness can be made to deepen or retreat, lengthen, move, flicker or undulate disturbingly. Though you can only affect a limited area of shadow, the stuff takes on a hellishly cloying quality and bends to your supernatural will. You must expend a Blood Trait to use Shadow Play; once activated, it lasts for the duration of the scene or for an hour. You can affect one individual with the flapping, disconcerting shades of this power. If you choose to conceal yourself, you gain one bonus Trait in all challenges of stealth and ranged combat. By pulling shadows around you into a terrifying mantle, you may alternately gain one bonus Trait in all challenges of intimidation. If you decide to afflict a victim with flapping, twisting shadows, the subject suffers from the Negative Trait Clumsy due to the distraction, and is disconcerted and asphyxiated by the darkness. A mortal enveloped in this fashion may even be strangled; a mortal with three or fewer current Physical Traits loses one Physical Trait every turn, and then loses one health level per turn as long as the morass continues to attach to her. Should the mortal lose all of her health levels in this fashion, she chokes to death. Directing the shades of this power to conceal or surround you is automatic, but attacking an individual with the strangling shadows requires a successful challenge of your Mental Traits versus the target’s Physical Traits.",
             },
             {
-                name: "",
+                name: "Shroud of Night",
                 level: "Basic",
-                cost: ,
-                description: "",
+                cost: 3,
+                description: "You can evoke a cloud of inky blackness, a blob that absorbs all light and distorts sound. Hovering preternaturally in the air, this globe feels like a heavy morass to all those engulfed within. You need only expend a Blood Trait to create a sphere of blackness roughly 10 feet in diameter. You can even create the cloud in a location outside of your line-of-sight, at the cost of one Blood Trait, as long as it is within 50 feet of your location. Victims enveloped in this globe suffer the Negative Physical Trait Clumsy while they are engulfed, and mortals with five or fewer current Physical Traits may be strangled, like the power of Shadow Play. (The Trait penalties and strangling damage from this power are not cumulative with Shadow Play, though.) You can even cause the tenebrous cloud to move at a speed roughly equal to a walk, as long as you concentrate fully on such motion. Inside the Shroud of Night, all light sources other than fire are extinguished and sound is muffled. All victims of the cloud (except yourself and those with some means of seeing through Obtenebration) suffer the penalties of total dark- ness: They lose two Traits in resolution of challenges, and they are forced to make a single retest on any successful challenge because of the darkness. Even those with Heightened Senses and Eyes of the Beast are affected; each removes one penalty Trait from the effects of the cloud (the forced retest is not removed). Your Shroud of Night, once created, lasts for the entire scene or hour, or until you dispel the darkness to whatever nether region from which it came.",
             },
             {
-                name: "",
+                name: "Arms of the Abyss",
                 level: "Intermediate",
                 cost: 6,
-                description: "",
+                description: "From the shadowy corners of a room or the blackness of night itself, you can summon forth tentacle limbs that flail about, ensnaring or attacking as you desire. These black shadow tentacles animate as you direct, even while you take other actions. You can pull many tentacles from a single source, or generate shades from several locations at once. You must expend a Blood Trait to create the shadow tentacles; every tentacle created costs one Social Trait. The tentacles are six feet long and they possess three Physical Traits and four health levels. Each additional Blood Trait spent in the creation can gift one tentacle with an extra Physical Trait, or increase one’s length by an additional six feet. Once created, your shadowy tentacles remain for the duration of the scene, unless you dispel them or fall into unconsciousness or torpor. You can control the actions of the tentacles even while performing other actions. The tentacles can grab, whip, hold items and perform other tasks with precision. The tentacles take damage normally from attacks, and they suffer from fire and sunlight just like a vampire, though they are considered to have any Fortitude that you may possess. You can add your Potence to the might of the tentacles as well, though not at the same time as you are adding your Fortitude. You may not combine the effects of Obtenebration with the powers of any other Disciplines.",
             },
             {
-                name: "",
+                name: "Black Metamorphosis",
                 level: "Intermediate",
                 cost: 6,
-                description: "",
+                description: "Spewing forth your own stained inner spirit, you meld your corpselike body with the very stuff of tangible darkness. Your head and limbs seem to fade into shadow, while bands of blackness striate your body and shadowy tentacles sprout from your torso. You must expend two Blood Traits and a Social Trait to evoke this power. You immediately sprout four tentacles just like those of the Arms of the Abyss power, though they are considered extensions of yourself and they use your Traits. The chilling darkness about your body and infusing the tentacles afflicts anyone you touch with the Negative Trait Clumsy as their limbs are numbed with supernatural cold. You may make one additional attack at the end of each turn by using the tentacles, in addition to any strikes that you normally gain or make with Celerity (this extra attack is added to your attack sequence, not multiplied if you have extra actions). You gain the bonus Traits Intimidating x 3 while taking on this demonic aspect. Lastly, you suffer no penalties from any sorts of mundane darkness. The Black Metamorphosis lasts for one scene or one hour",
             },
             {
-                name: "",
+                name: "Tenebrous Form",
                 level: "Advanced",
                 cost: 9,
-                description: "",
+                description: "At this level of skill, you no longer summon forth the darkness within your- self — you become it. Your form collapses into a shadowy outline, a pseudo-liquid humanoid shape of utter blackness. While in this form, you can slither about through tiny holes and cracks, and you may see through any normal darkness. You must expend three Blood Traits and spend three full turns in concentration, doing nothing else, in order to make this transformation. While in Tenebrous Form, you cannot be harmed by physical attacks, although you still take damage from magic, fire and sunlight. You also cannot affect your surroundings physically, as you have no real solid substance. By enveloping a victim, though (with your Mental Traits challenging his Physical Traits as an attack), you can perform the same functions as the Shroud of Night power, causing disorientation, darkness and smothering. You are unaffected by gravity, and you can slither along any surface or move like a blob of ambulatory liquid. You can even use mental Disciplines while in this state, though within the limitations of your form — you have no eyes and thus cannot use Dominate, but you could hide your shadowy form with Obfuscate. In this shadow form, your Blood Traits are the same sort of inky darkness, and thus, they are unaffected by the powers of Thaumaturgy. While in Tenebrous Form, fire and sunlight are exceedingly painful to you; thus, you suffer a one-Trait penalty on resolution of Courage Tests.",
             }
             
         ],
-        description: ""
+        description: "The bailiwick of the Lasombra clan, the Obtenebration Discipline summons forth and shapes a strange, cloying darkness. This darkness is wholly unnatural. It mutes sound, absorbs light and sometimes seems to have a tangible substance. Some Cainites claim that this darkness is a reflection of the primordial void before Creation, while others hold that it stems from the vampire’s blotted soul. Whatever the source, this shadowstuff is certainly terrifying to those unused to its manifestations. Any given vampire can see through her own Obtenebration darkness automati- cally without penalty, unless otherwise noted. Creations of other users of the Discipline are just as impenetrable to other Cainites with the power, though. Occult retests are appropriate for the Obtenebration Discipline’s powers, though shades used in a more mundane fashion (like attacking or grappling) should use the appropriate Abilities (like Brawl or Melee)."
     },
     {
-        primary_name: "",
+        primary_name: "Potence",
         powers: [
             {
-                name: "",
+                name: "Prowess",
                 level: "Basic",
-                cost: ,
-                description: "",
+                cost: 3,
+                description: "You have unearthed a level of strength unusual in vampires. Where others would flag and fail, you redouble your efforts. Your mighty blows land with a force that kills even the hardiest mortals. With Prowess, all of your unarmed or clubbing attacks inflict lethal damage instead of bashing damage, if you so desire. Furthermore, once per game session, you may re- coup your lost strength, restoring all used Physical Traits of Brawny, Ferocious, Stalwart, Tough and Wiry. You must restore all of them at once — if you have some Traits of the appropriate type unused when you invoke Prowess, you cannot restore them later. Using Prowess costs nothing, and it does not count as an action; it may be done at any time.",
             },
             {
-                name: "",
+                name: "Might",
                 level: "Basic",
-                cost: ,
-                description: "",
+                cost: 3,
+                description: "Your strength daunts even other Cainites. Few would dare to cross you in a test of physical power. You are far more likely than the average vampire to succeed in challenges of strength. With Might, you may make a single retest on any challenge of sheer physical strength. Thus, if you are grappling, picking up a heavy object or breaking something, you can use Might as a retest. Once you invoke Might, it is the last test of the challenge; no further retests are allowed. Might costs nothing to use. You may use Might even if your opponent attempts to evade your strength. Your power is so startling that even an opponent who attempts to outlast you with stamina or to dodge you with quickness can be overcome, as long as you rely solely on your strength. Doing so generally requires you to bid a strength-related Trait, such as the types of Traits restorable with Prowess. Obviously, if you cannot exert your Might, you cannot make this retest — thus, you cannot use Might at range, with a thrown object (requiring speed and accuracy). You could use Might while trying to grab at a dodging opponent, but not when picking up and throwing a heavy object.",
             },
             {
-                name: "",
+                name: "Vigor",
                 level: "Intermediate",
                 cost: 6,
-                description: "",
+                description: "Your vampiric strength is truly monumental. You can heft hundreds of pounds with ease, deliver enough force to crush bones in a single blow and hammer down any opponent of lesser strength. When you possess Vigor, you may use the Bomb in challenges of strength. The Bomb is a closed fist with the thumb sticking up. The Bomb defeats Rock and Paper, ties with other Bombs and loses to Scissors (the fuse is cut). You are not required to use the Bomb, but you must always state before a Physical Challenge that you are capable of doing so. Using Vigor costs nothing. Your use of Vigor requires you to use only your strength; your opponent may try to defend with stamina or speed, but his doing so does not prevent you from using the Bomb.",
             },
             {
-                name: "",
+                name: "Intensity",
                 level: "Intermediate",
                 cost: 6,
-                description: "",
+                description: "Your titanic strength never fails you. Unless sorely pressed or wounded, you can continue incredible feats indefinitely. Whenever you enter a challenge of strength, you may use Potence as your bid Trait. This Trait does not count toward totals when resolving ties or overbids, but it can never be lost; thus, you may continually use Potence in successive tests of strength. Only if you are forced to risk multiple Traits — such as due to wounds or Negative Traits — do you risk losing any of your other Physical Traits. If  you run out of Physical Traits, you cannot use this Discipline. Once you have been completely exhausted, you can no longer enter challenges.",
             },
             {
-                name: "",
+                name: "Puissance",
                 level: "Advanced",
                 cost: 9,
-                description: "",
+                description: "No mortal can match you, and even vampires tremble at your touch. The strength of your dead limbs is truly monumental, crushing anything that stands before you. With Puissance, you win all ties in tests of strength automatically. You need not compare Traits at all, unless some other factor would cause you to lose ties (such as wounds) or give the opponent the ability to win all ties as well (such as Fleetness). Furthermore, your incredible strikes inflict an additional health level of damage in combat. This bonus applies to any attack in which your strength is a factor — unarmed combat or combat with melee weapons. However, use of this incredible strength almost certainly breaks weapons that are not specially designed to stand it.",
             }
             
         ],
-        description: ""
+        description: "All vampires are capable of preternatural strength by human standards, simply through the use of blood. With Potence, though, this strength extends far beyond such measures. The inhuman might of Potence is sufficient to allow a vampire to break bones, shatter stone, even heft and destroy heavy or resilient objects. Vampires using Potence in battle are fearsome indeed, delivering telling blows that fell even their undead adversaries. Most uses of Potence above the Basic levels are considered a breach of the Masquerade among Camarilla Kindred. The Potence Discipline is most commonly known by the Brujah, Giovanni, Lasombra and Nosferatu clans, all of whom prize physical strength and prowess. As Potence is a highly useful capability and requires little effort on the part of the vampire in question, many Cainites seek out tutors in this Discipline. The Potence Discipline, as a physically augmenting Discipline, does not use any Ability for retests other than the Ability commonly associated with whatever task is at hand. That is, when striking someone while using Potence, one should use the normal Brawl Ability for retesting."
     },
-    {
-        primary_name: "",
-        powers: [
-            {
-                name: "",
-                level: "Basic",
-                cost: ,
-                description: "",
-            },
-            {
-                name: "",
-                level: "Basic",
-                cost: ,
-                description: "",
-            },
-            {
-                name: "",
-                level: "Intermediate",
-                cost: 6,
-                description: "",
-            },
-            {
-                name: "",
-                level: "Intermediate",
-                cost: 6,
-                description: "",
-            },
-            {
-                name: "",
-                level: "Advanced",
-                cost: 9,
-                description: "",
-            }
+    // {
+    //     primary_name: "",
+    //     powers: [
+    //         {
+    //             name: "",
+    //             level: "Basic",
+    //             cost: 3,
+    //             description: "",
+    //         },
+    //         {
+    //             name: "",
+    //             level: "Basic",
+    //             cost: 3,
+    //             description: "",
+    //         },
+    //         {
+    //             name: "",
+    //             level: "Intermediate",
+    //             cost: 6,
+    //             description: "",
+    //         },
+    //         {
+    //             name: "",
+    //             level: "Intermediate",
+    //             cost: 6,
+    //             description: "",
+    //         },
+    //         {
+    //             name: "",
+    //             level: "Advanced",
+    //             cost: 9,
+    //             description: "",
+    //         }
             
-        ],
-        description: ""
-    }
+    //     ],
+    //     description: ""
+    // }
 ]
 
 const seedDisciplines = () => Discipline.collection.insertMany(disciplinesData);

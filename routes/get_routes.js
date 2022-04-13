@@ -124,9 +124,9 @@ router.get("/disciplines", async (req, res) => {
 })
 router.get("/disciplines/:name", async (req, res) => {
     try {
-        let data = await Discipline.find({ name: req.params.name })
+        let data = await Discipline.findOne({ primary_name: req.params.name })
         if (!data) {
-            return res.status(404).json({ message: 'Cannot find that Descipline, sorry!' });
+            return res.status(404).json({ message: 'Cannot find that Discipline, sorry!' });
         }
         res.json(data)
     } catch (error) {
