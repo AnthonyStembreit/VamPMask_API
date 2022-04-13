@@ -96,7 +96,7 @@ router.get("/backgrounds/:name", async (req, res) => {
 //Clans
 router.get("/clans", async (req, res) => {
     try {
-        let data = await Clan.find().select('-__v').populate('disciplines');
+        let data = await Clan.find().select('-__v').populate({ path:'disciplines', select: 'primary_name'});
         res.json(data)
     } catch (error) {
         console.log(error)

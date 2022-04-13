@@ -449,4 +449,4 @@ const disciplinesData = [
 
 const seedDisciplines = () => Discipline.collection.insertMany(disciplinesData);
 
-module.exports = {seedDisciplines};
+module.exports = {disciplinesData, seedDisciplines};

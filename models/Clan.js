@@ -14,14 +14,18 @@ const clanSchema = new Schema(
                 ref: 'Discipline',
             },
         ],
+        // role_play_hints:{
+        //     type: String
+        // },
+        //advantages
+        //disadvantages
+        //bloodlines
         // clan_freebies: {
         //     type: 
         // }
         description: {
             type: String,
             required: true,
-            minlength: 1,
-            maxlength: 2000
         }
     },
     {
