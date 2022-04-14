@@ -6,9 +6,45 @@ const abilityData = [
         retest_ability: ,
         associated_discipline: 
         description: ""
+    },
+    {
+        name: "",
+        retest_ability: ,
+        associated_discipline: 
+        description: ""
+    },
+    {
+        name: "",
+        retest_ability: ,
+        associated_discipline: 
+        description: ""
+    },
+    {
+        name: "",
+        retest_ability: ,
+        associated_discipline: 
+        description: ""
+    },
+    {
+        name: "",
+        retest_ability: ,
+        associated_discipline: 
+        description: ""
+    },
+    {
+        name: "",
+        retest_ability: ,
+        associated_discipline: 
+        description: ""
+    },
+    {
+        name: "",
+        retest_ability: ,
+        associated_discipline: 
+        description: ""
     }
 ]
 
-const seedAbility = () => Archetype.collection.insertMany(abilityData);
+const seedAbility = () => Ability.collection.insertMany(abilityData);
 
 module.exports = {seedAbility};
