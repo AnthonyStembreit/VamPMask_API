@@ -8,9 +8,10 @@ const abilitySchema = new Schema(
       minlength: 1,
       maxlength: 280
     },
-    ability_level: {
-      type: Number
-    },
+    //used for future dev
+    // ability_level: {
+    //   type: Number
+    // },
     retest_ability: {
       type: Boolean
     },

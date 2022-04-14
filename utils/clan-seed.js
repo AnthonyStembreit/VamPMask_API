@@ -18,46 +18,46 @@ const clansData = [
         description: "",
         role_play_hints: ""
     },
-    {
-        name: "",
-        disciplines: [],
-        description: ""
-    },
-    {
-        name: "",
-        disciplines: [],
-        description: ""
-    },
-    {
-        name: "",
-        disciplines: [],
-        description: ""
-    },
-    {
-        name: "",
-        disciplines: [],
-        description: ""
-    },
-    {
-        name: "",
-        disciplines: [],
-        description: ""
-    },
-    {
-        name: "",
-        disciplines: [],
-        description: ""
-    },
-    {
-        name: "",
-        disciplines: [],
-        description: ""
-    },
-    {
-        name: "",
-        disciplines: [],
-        description: ""
-    },
+    // {
+    //     name: "",
+    //     disciplines: [],
+    //     description: ""
+    // },
+    // {
+    //     name: "",
+    //     disciplines: [],
+    //     description: ""
+    // },
+    // {
+    //     name: "",
+    //     disciplines: [],
+    //     description: ""
+    // },
+    // {
+    //     name: "",
+    //     disciplines: [],
+    //     description: ""
+    // },
+    // {
+    //     name: "",
+    //     disciplines: [],
+    //     description: ""
+    // },
+    // {
+    //     name: "",
+    //     disciplines: [],
+    //     description: ""
+    // },
+    // {
+    //     name: "",
+    //     disciplines: [],
+    //     description: ""
+    // },
+    // {
+    //     name: "",
+    //     disciplines: [],
+    //     description: ""
+    // },
 ]
 Clan.collection.insertMany(clansData)
 }
