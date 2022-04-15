@@ -44,11 +44,8 @@ https://vampmaskapi.herokuapp.com/traits</p>
 <p>Single Trait (aka attribute / bidding trait):<br>
 https://vampmaskapi.herokuapp.com/traits/{name}</p>
 
-<p>
-Traits by Type | {type} options: 'Physical' / 'Social' / 'Mental':
-<br>
-https://vampmaskapi.herokuapp.com/traits/by-type/{type}
-</p>
+<p>Traits by Type | {type} options: 'Physical' / 'Social' / 'Mental':<br>
+https://vampmaskapi.herokuapp.com/traits/by-type/{type}</p>
 
 <p>All Abilities: <br>
 https://vampmaskapi.herokuapp.com/abilities</p>
