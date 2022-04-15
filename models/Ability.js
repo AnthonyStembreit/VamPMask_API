@@ -12,9 +12,6 @@ const abilitySchema = new Schema(
     // ability_level: {
     //   type: Number
     // },
-    retest_ability: {
-      type: Boolean
-    },
     associated_discipline: {
       type: Schema.Types.ObjectId,
       ref: 'Discipline',

@@ -16,7 +16,7 @@ router.get("/influences", async (req, res) => {
 })
 router.get("/influences/:name", async (req, res) => {
     try {
-        let data = await Influence.find({ name: req.params.name })
+        let data = await Influence.findOne({ name: req.params.name })
         if (!data) {
             return res.status(404).json({ message: 'Cannot find that Influence, sorry!' });
         }
@@ -28,7 +28,7 @@ router.get("/influences/:name", async (req, res) => {
 //Abilities
 router.get("/abilities", async (req, res) => {
     try {
-        let data = await Ability.find().select('-__v').populate('associated_discipline');
+        let data = await Ability.find().select('-__v').populate({path:'associated_discipline', select: "primary_name"});
         res.json(data)
     } catch (error) {
         console.log(error)
@@ -36,18 +36,10 @@ router.get("/abilities", async (req, res) => {
 })
 router.get("/abilities/:name", async (req, res) => {
     try {
-        let data = await Ability.findOne({ name: req.params.name }).select('-__v').populate('associated_discipline');
+        let data = await Ability.findOne({ name: req.params.name }).select('-__v').populate({path:'associated_discipline', select: "primary_name"});
         if (!data) {
             return res.status(404).json({ message: 'Cannot find that Ability, sorry!' });
         }
-        res.json(data)
-    } catch (error) {
-        console.log(error)
-    }
-})
-router.get("/abilities/retest", async (req, res) => {
-    try {
-        let data = await Ability.find({ retest_ability: true }).select('-__v').populate('associated_discipline');   
         res.json(data)
     } catch (error) {
         console.log(error)
@@ -122,6 +114,14 @@ router.get("/disciplines", async (req, res) => {
         console.log(error)
     }
 })
+// router.get("/disciplines/exclude-powers", async (req, res) => {
+//     try {
+//         let data = await Discipline.find({select: 'primary_name'});
+//         res.json(data)
+//     } catch (error) {
+//         console.log(error)
+//     }
+// })
 router.get("/disciplines/:name", async (req, res) => {
     try {
         let data = await Discipline.findOne({ primary_name: req.params.name })
@@ -166,6 +166,17 @@ router.get("/traits/by-type/:type", async (req, res) => {
     }
 })
 //Dictionary
+router.get("/all-words", async (req, res) => {
+    try {
+        let data = await Dictionary.find()
+        if (!data) {
+            return res.status(404).json({ message: 'Cannot find that word, sorry!' });
+        }
+        res.json(data)
+    } catch (error) {
+        console.log(error)
+    }
+})
 router.get("/define/:word", async (req, res) => {
     try {
         let data = await Dictionary.findOne({ word: req.params.word })
