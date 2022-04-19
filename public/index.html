@@ -4,58 +4,106 @@
 <head>
     <title>VampMask API Docs</title>
     <link rel="stylesheet" href="./style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta Name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <header>
         <h1>VampMask API Docs</h1>
     </header>
-    <h2>End Points & Documentation</h2>
-    <section id = "input-box">
-        <p>Note: {name} is case sensitive and must be a capatilized word! ie 'Police'(an influence) or 'Resources'(a background)</p>
+    <ul>
+        <li><a href="#end-points">End Points</a></li>
+        <li><a href="#special-cases">Special Cases</a></li>
+        <li><a href="#schemas">Schemas</a></li>
+    </ul>
+    <section id="end-points">
+        <h2>End Points</h2>
+        <p>Note: {Name} is case sensitive and must be a capatilized word! ie 'Police'(an influence) or 'Resources'(a
+            background)</p>
         <label for="backgrounds">All Backgrounds</label>
         <input type="text" value="https://vampmaskapi.herokuapp.com/backgrounds" readonly id="backgrounds">
         <label for="single-background">Single Background</label>
-        <input type="text" value="https://vampmaskapi.herokuapp.com/backgrounds/{name}" readonly id="single-background">
-       
+        <input type="text" value="https://vampmaskapi.herokuapp.com/backgrounds/{Name}" readonly id="single-background">
+
         <label for="influences">All Influences</label>
         <input type="text" value="https://vampmaskapi.herokuapp.com/influences" readonly id="influences">
         <label for="single-influence">Single Influence</label>
-        <input type="text" value="https://vampmaskapi.herokuapp.com/influences/{name}" readonly id="single-influence">
-        
+        <input type="text" value="https://vampmaskapi.herokuapp.com/influences/{Name}" readonly id="single-influence">
+
         <label for="clans">All Clans</label>
         <input type="text" value="https://vampmaskapi.herokuapp.com/clans" readonly id="clans">
         <label for="single-clan">Single Clan</label>
-        <input type="text" value="https://vampmaskapi.herokuapp.com/clans/{name}" readonly id="single-clan">
-        
+        <input type="text" value="https://vampmaskapi.herokuapp.com/clans/{Name}" readonly id="single-clan">
+
         <label for="disciplines">All Disciplines</label>
         <input type="text" value="https://vampmaskapi.herokuapp.com/disciplines" readonly id="disciplines">
         <label for="single-discipline">Single Discipline</label>
-        <input type="text" value="https://vampmaskapi.herokuapp.com/disciplines/{name}" readonly id="single-discipline">
+        <input type="text" value="https://vampmaskapi.herokuapp.com/disciplines/{Name}" readonly id="single-discipline">
 
         <label for="traits">All Traits (aka attributes / bidding traits)</label>
         <input type="text" value="https://vampmaskapi.herokuapp.com/traits" readonly id="traits">
         <label for="single-trait">Single Trait (aka attribute / bidding trait)</label>
-        <input type="text" value="https://vampmaskapi.herokuapp.com/traits/{name}" readonly id="single-trait">
+        <input type="text" value="https://vampmaskapi.herokuapp.com/traits/{Name}" readonly id="single-trait">
         <label for="single-trait">Traits by Type | {type} options: 'Physical' / 'Social' / 'Mental'</label>
         <input type="text" value="https://vampmaskapi.herokuapp.com/traits/by-type/{type}" readonly id="single-trait">
-      
+
 
         <label for="abilities">All Abilities</label>
         <input type="text" value="https://vampmaskapi.herokuapp.com/abilities" readonly id="abilities">
         <label for="single-ability">Single Ability</label>
-        <input type="text" value="https://vampmaskapi.herokuapp.com/abilities/{name}" readonly id="single-ability">
-       
+        <input type="text" value="https://vampmaskapi.herokuapp.com/abilities/{Name}" readonly id="single-ability">
+
         <label for="archetypes">All Archetypes</label>
         <input type="text" value="https://vampmaskapi.herokuapp.com/archetypes" readonly id="archetypes">
         <label for="single-archetype">Single Archetype</label>
-        <input type="text" value="https://vampmaskapi.herokuapp.com/archetypes/{name}" readonly id="single-archetype">
+        <input type="text" value="https://vampmaskapi.herokuapp.com/archetypes/{Name}" readonly id="single-archetype">
 
         <label for="dictionary">Lexicon (AKA Dictionary)</label>
         <input type="text" value="https://vampmaskapi.herokuapp.com/all-words" readonly id="dictionary">
         <label for="dictionary">Single Word Definitions</label>
-        <input type="text" value="https://vampmaskapi.herokuapp.com/define/{word}" readonly id="dictionary">
+        <input type="text" value="https://vampmaskapi.herokuapp.com/define/{Word}" readonly id="dictionary">
+    </section>
+
+    <section id="special-cases">
+        <h2>Special Cases</h2>
+        <p>Note: {Name} & {Word} is case sensitive and must be a capatilized word! ie 'Police'(an influence) or
+            'Resources'(a background)</p>
+        <label for="dictionary">Lexicon (AKA Dictionary)</label>
+        <input type="text" value="https://vampmaskapi.herokuapp.com/all-words" readonly id="dictionary">
+        <label for="dictionary">Single Word Definitions</label>
+        <input type="text" value="https://vampmaskapi.herokuapp.com/define/{Word}" readonly id="dictionary">
+    </section>
+
+    <section id="schemas">
+        <h2>Schemas</h2>
+        <div>
+            <h3>Archetype Schema</h3>
+            <img src="" alt="Archetype database schema" />
+        </div>
+        <div>
+            <h3>Ability Schema</h3>
+            <img src="./images/ability-schema.png" alt="Ability database schema" />
+        </div>
+        <div>
+            <h3>Clan Schema</h3>
+            <img src="" alt="Clan database schema" />
+        </div>
+        <div>
+            <h3>Discipline Schema</h3>
+            <img src="" alt="Discipline database schema" />
+        </div>
+        <div>
+            <h3>Influence Schema</h3>
+            <img src="" alt="Influence database schema" />
+        </div>
+        <div>
+            <h3>Background Schema</h3>
+            <img src="" alt="Background database schema" />
+        </div>
+        <div>
+            <h3>Dictionary Schema</h3>
+            <img src="" alt="Dictionary database schema" />
+        </div>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"

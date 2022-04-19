@@ -1,5 +1,5 @@
 
-$("#input-box").click(e =>{
+$("#end-points").click(e =>{
     e.preventDefault();
     navigator.clipboard.writeText(e.target.value);
 })
