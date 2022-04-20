@@ -8,8 +8,9 @@ const archetypeSchema = new Schema(
       minlength: 1,
       maxlength: 280
     },
-    description: {
+    archetype_description: {
         type: String,
+        required: true,
         minlength: 1,
         maxlength: 500
     }

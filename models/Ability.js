@@ -8,7 +8,7 @@ const abilitySchema = new Schema(
       minlength: 1,
       maxlength: 280
     },
-    //used for future dev
+    //future dev
     // ability_level: {
     //   type: Number
     // },
@@ -17,7 +17,7 @@ const abilitySchema = new Schema(
       ref: 'Discipline',
     },
 
-    description: {
+    ability_description: {
       type: String,
       required: true,
       minlength: 1,

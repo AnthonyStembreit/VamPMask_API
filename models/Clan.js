@@ -2,18 +2,19 @@ const { Schema, model } = require('mongoose');
 
 const clanSchema = new Schema(
     {
-        name: {
+        clan_name: {
             type: String,
             required: true,
             minlength: 1,
             maxlength: 280
         },
-        disciplines: [
+        clan_disciplines: [
             {
                 type: Schema.Types.ObjectId,
                 ref: 'Discipline',
             },
         ],
+        //future dev
         // role_play_hints:{
         //     type: String
         // },
@@ -23,7 +24,7 @@ const clanSchema = new Schema(
         // clan_freebies: {
         //     type: 
         // }
-        description: {
+        clan_description: {
             type: String,
             required: true,
         }

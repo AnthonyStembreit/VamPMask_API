@@ -1,16 +1,18 @@
-const { Schema,  model, Types} = require('mongoose');
+const { Schema, model, Types } = require('mongoose');
 const levelSchema = new Schema({
   levelId: {
     type: Schema.Types.ObjectId,
     default: () => new Types.ObjectId(),
   },
-  cost: {
+  action_cost: {
     type: Number,
+    required: true,
   },
   actions: {
     type: String,
-      minlength: 1,
-      maxlength: 1000
+    required: true,
+    minlength: 1,
+    maxlength: 1000
   }
 })
 const influenceSchema = new Schema(
@@ -22,12 +24,13 @@ const influenceSchema = new Schema(
       maxlength: 280
     },
     influence_levels: [levelSchema],
-    description: {
-        type: String,
-        minlength: 1,
-        maxlength: 500
-    }, 
-   
+    influence_description: {
+      type: String,
+      required: true,
+      minlength: 1,
+      maxlength: 500
+    },
+
   },
   {
     toJSON: {

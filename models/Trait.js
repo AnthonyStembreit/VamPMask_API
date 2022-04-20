@@ -19,15 +19,16 @@ const traitSchema = new Schema(
       type: Boolean,
       required: true
     },
-    trait_level: {
-      type: Number
-    },
-    discipline: [
-      {
-          type: Schema.Types.ObjectId,
-          ref: 'Discipline',
-      },
-  ],
+    //future dev
+    // trait_level: {
+    //   type: Number
+    // },
+    //   discipline: [
+    //     {
+    //         type: Schema.Types.ObjectId,
+    //         ref: 'Discipline',
+    //     },
+    // ],
     description: {
       type: String,
       required: true,
@@ -36,6 +37,7 @@ const traitSchema = new Schema(
     },
     uses: {
       type: String,
+      required: true,
     },
   },
   {

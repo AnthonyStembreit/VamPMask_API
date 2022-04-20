@@ -6,11 +6,13 @@ const levelSchema = new Schema({
   },
   level: {
     type: Number,
+    required: true,
   },
   benefits: {
     type: String,
-      minlength: 1,
-      maxlength: 1000
+    required: true,
+    minlength: 1,
+    maxlength: 1000
   }
 })
 
@@ -22,11 +24,12 @@ const backgroundSchema = new Schema(
       minlength: 1,
       maxlength: 280
     },
-    background_levels: [levelSchema], 
-    description: {
-        type: String,
-        minlength: 1,
-        maxlength: 1000
+    background_levels: [levelSchema],
+    background_description: {
+      type: String,
+      required: true,
+      minlength: 1,
+      maxlength: 1000
     }
   },
   {

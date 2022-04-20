@@ -14,7 +14,7 @@ const dictionarySchema = new Schema(
       minlength: 1,
       maxlength: 200
     },
-    description: {
+    more_info: {
       type: String,
       minlength: 1,
       maxlength: 2000
