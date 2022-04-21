@@ -37,7 +37,7 @@ const disciplineSchema = new Schema(
       maxlength: 280
     },
     powers: [powerSchema],
-    discipline_description: {
+   description: {
       type: String,
       required: true,
       minlength: 1,

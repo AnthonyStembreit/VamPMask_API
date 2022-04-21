@@ -25,7 +25,7 @@ const backgroundSchema = new Schema(
       maxlength: 280
     },
     background_levels: [levelSchema],
-    background_description: {
+    description: {
       type: String,
       required: true,
       minlength: 1,

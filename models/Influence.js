@@ -24,7 +24,7 @@ const influenceSchema = new Schema(
       maxlength: 280
     },
     influence_levels: [levelSchema],
-    influence_description: {
+    description: {
       type: String,
       required: true,
       minlength: 1,
