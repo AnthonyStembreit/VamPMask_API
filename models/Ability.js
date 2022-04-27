@@ -17,7 +17,7 @@ const abilitySchema = new Schema(
       ref: 'Discipline',
     },
 
-    ability_description: {
+   description: {
       type: String,
       required: true,
       minlength: 1,

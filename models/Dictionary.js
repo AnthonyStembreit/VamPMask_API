@@ -14,12 +14,12 @@ const dictionarySchema = new Schema(
       minlength: 1,
       maxlength: 200
     },
-    more_info: {
+    description: {
       type: String,
       minlength: 1,
       maxlength: 2000
     },
-    
+
   },
   {
     toJSON: {

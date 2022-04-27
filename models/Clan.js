@@ -8,7 +8,7 @@ const clanSchema = new Schema(
             minlength: 1,
             maxlength: 280
         },
-        clan_disciplines: [
+        disciplines: [
             {
                 type: Schema.Types.ObjectId,
                 ref: 'Discipline',

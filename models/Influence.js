@@ -4,7 +4,7 @@ const levelSchema = new Schema({
     type: Schema.Types.ObjectId,
     default: () => new Types.ObjectId(),
   },
-  action_cost: {
+  cost: {
     type: Number,
     required: true,
   },

@@ -16,7 +16,7 @@ const powerSchema = new Schema(
       type: String,
       required: true,
     },
-    exp_cost: {
+    cost: {
       type: Number,
       required: true
     },
@@ -37,7 +37,7 @@ const disciplineSchema = new Schema(
       maxlength: 280
     },
     powers: [powerSchema],
-   description: {
+    description: {
       type: String,
       required: true,
       minlength: 1,
