@@ -12,6 +12,8 @@ RESTful API inspired by vampire masquerade character creation. Designed to retur
 * 'cors' npm package to enable remote fetch requests
 * JavaScript
 * Heroku for deployment
+* HTML
+* CSS 
 
 ## End Points / Documentation
 
